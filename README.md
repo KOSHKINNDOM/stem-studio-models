@@ -12,3 +12,6 @@
 | `models__separation__drumsep-6s.matmul.fp16.onnx` | MDX23C DrumSep aufr33 + jarredou, 6 стемов (бочка, рабочий, томы, хай-хэт, райд, крэш) — TensorRT-RTX |
 | `models__separation__drumsep-6s.mha.fp16.onnx` | то же — WebGPU (граф тот же, что у TensorRT: у MDX23C нет внимания) |
 | `models__separation__drumsep-6s.mha.onnx` | то же — процессор (fp32) |
+| `models__separation__mega53-groups.matmul.fp16.onnx` | MVSep Mega 53, шины: клавишные, струнные, духовые, баян — ствол и четыре головы, маски сложены в графе; TensorRT-RTX (внимание в fp32) |
+| `models__separation__mega53-groups.mha.fp16.onnx` | то же — WebGPU |
+| `models__separation__mega53-groups.mha.onnx` | то же — процессор (fp32) |
